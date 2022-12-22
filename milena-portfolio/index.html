@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/logo-1.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <title> Milena Safarli-Welcome to My Portfolio</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">Milena Safarli</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-circle'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user-circle'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-rounded-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme Change button -->
+            <i class='bx bx-moon change-theme' id='theme-button'></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hi, I'm</span>
+                    <h1 class="home__name">Milena Safarli</h1>
+                    <h3 class="home__education">Fullstack Software Engineer</h3>
+                    <div class="home__buttons">
+                        <a download="" href="./assets/pdf/Nihat Safarli.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">
+                            About me
+                        </a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="./assets/img/perfil.png" alt="" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/nihat-safarli-235449153/" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/nihatsafarli" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://medium.com/@safarlinihat" target="_blank" class="home__social-link">
+                        <i class='bx bxl-medium-square'></i>
+                    </a>
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container container grid">
+                <img src="./assets/img/about.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2+ Years Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bxs-briefcase about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">30+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 7/24</span>
+                        </div>
+                    </div>
+                    <p class="about__desc">Innovative Front-end developer with 2+ years experience building and
+                        maintaining responsive websites in the programming industry.Experience in
+                        Html,Css,JavaScript;plus Modern libraries and frameworks. Passionate about usability and process
+                        working knowledge of React Js.
+                    </p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Css</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">React Js</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Redux Toolkit</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">C#</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">.NET Core</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">DevExpress</h3>
+                                    <span class="skills__level">Experienced</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Entity Core</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">MsSQL</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Frontend <br> Developer</h3>
+                    <span class="services__button">
+                        See More <i class='bx bxs-chevrons-right services__icon'></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bxs-x-circle services__modal-close'></i>
+                            <h3 class="services__modal-title">Frontend Development</h3>
+                            <p class="services__modal-desc">Innovative Front-end developer with 2+ years experience
+                                building and maintaining responsive websites in the programming industry.Experience in
+                                Html,Css,JavaScript;plus Modern libraries and frameworks. Passionate about usability and
+                                process working knowledge of React Js.</p>
+                            <ul class="services__modal-list">
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum, dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Backend <br> Developer</h3>
+                    <span class="services__button">
+                        See More <i class='bx bxs-chevrons-right services__icon'></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bxs-x-circle services__modal-close'></i>
+                            <h3 class="services__modal-title">Backend Development</h3>
+                            <p class="services__modal-desc">Innovative Front-end developer with 2+ years experience
+                                building and maintaining responsive websites in the programming industry.Experience in
+                                Html,Css,JavaScript;plus Modern libraries and frameworks. Passionate about usability and
+                                process working knowledge of React Js.</p>
+                            <ul class="services__modal-list">
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum, dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Database <br> Developer</h3>
+                    <span class="services__button">
+                        See More <i class='bx bxs-chevrons-right services__icon'></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bxs-x-circle services__modal-close'></i>
+                            <h3 class="services__modal-title">Database Development</h3>
+                            <p class="services__modal-desc">Innovative Front-end developer with 2+ years experience
+                                building and maintaining responsive websites in the programming industry.Experience in
+                                Html,Css,JavaScript;plus Modern libraries and frameworks. Passionate about usability and
+                                process working knowledge of React Js.</p>
+                            <ul class="services__modal-list">
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum, dolor sit amet consectetur.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Projects</h2>
+            <div class="work__filters">
+                <span class="work__item active__work" data-filter="all">All</span>
+                <span class="work__item " data-filter=".front">Frontend</span>
+                <span class="work__item " data-filter=".back">Backend</span>
+                <span class="work__item " data-filter=".data">Database</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix front">
+                    <img src="./assets/img/work1.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Web Design</h3>
+                    <a href="#" class="work__button">
+                        Live Demo <i class='bx bx-right-arrow-circle work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix data">
+                    <img src="./assets/img/work2.jpg" alt="" class="work__img">
+                    <h3 class="work__title">React Projects</h3>
+                    <a href="#" class="work__button">
+                        Live Demo <i class='bx bx-right-arrow-circle work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix back">
+                    <img src="./assets/img/work3.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Javascript Projects</h3>
+                    <a href="#" class="work__button">
+                        Live Demo <i class='bx bx-right-arrow-circle work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix front">
+                    <img src="./assets/img/work4.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Html, Css</h3>
+                    <a href="#" class="work__button">
+                        Live Demo <i class='bx bx-right-arrow-circle work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix back">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+                    <h3 class="work__title"></h3>
+                    <a href="#" class="work__button">
+                        Live Demo <i class='bx bx-right-arrow-circle work__icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section" id="testimonial">
+            <span class="section__subtitle">My Clients Say</span>
+            <h2 class="section__title">Testimonials</h2>
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./assets/img/testimonial1.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Leo Safarli</h3>
+                        <p class="testimonial_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cum ipsa incidunt ipsum
+                            architecto sunt esse accusantium eum impedit dolores.
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./assets/img/testimonial2.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Aylin Safarli</h3>
+                        <p class="testimonial_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cum ipsa incidunt ipsum
+                            architecto sunt esse accusantium eum impedit dolores.
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./assets/img/testimonial3.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">Pelin Safarli</h3>
+                        <p class="testimonial_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cum ipsa incidunt ipsum
+                            architecto sunt esse accusantium eum impedit dolores.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get In Touch</span>
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk To Me</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">safarlinihat@gmail.com</span>
+                            <a href="mailto:safarlinihat@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bxs-right-arrow-square contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">+994708979477</span>
+                            <a href="https://api.whatsapp.com/send?phone=994708979477&text=Hello,How Can I  Help You?"
+                                target="_blank" class="contact__button">
+                                Write Me <i class='bx bxs-right-arrow-square contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">https://m.me/nihatshahinoglu</span>
+                            <a href="https://m.me/nihatshahinoglu" target="_blank" class="contact__button">
+                                Write Me <i class='bx bxs-right-arrow-square contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">Hire Me </h3>
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name and Surname</label>
+                            <input type="text" placeholder="Your Name.." class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email Address</label>
+                            <input type="email" placeholder="Email address.." class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" class="contact__form-input"
+                                placeholder="Your message.."></textarea>
+                        </div>
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Milena Safarli</h1>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="footer__link">Testimonials</a>
+                </li>
+            </ul>
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/nihat-safarli-235449153/" target="_blank"
+                    class="footer__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://github.com/nihatsafarli" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.facebook.com/nihatshahinoglu/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+            </ul>
+            <span class="footer__copy">
+                &#169; <span><a href="https://www.linkedin.com/in/nihat-safarli-235449153/" target="_blank">Nihat
+                        Safarli</a> All rights
+                    reserved</span>
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
